@@ -127,3 +127,108 @@ nav>a:hover{
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    .header{
+        position: relative;
+        top: 0;
+        width: 100%;
+        margin: 0;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        background-color: rgb(21, 21, 21);
+        border: 2px solid rgb(71, 45, 45);
+    }
+    .titlee{
+        margin: 18px;
+        color: #fff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .login-btn{ 
+        display: block;
+        margin: 18px;
+        background-color: rgb(40, 40, 40);
+    }
+    nav>a{
+        margin: 8px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    nav>a:hover{
+        color: #717171;
+    }
+    .botn{
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        border: 2px solid black;
+        border-radius: 8px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .botn:hover{
+        background-color: rgb(66, 66, 66);
+    }
+    .cont-body{
+        display: flex;
+        justify-content: space-between;
+        margin:0px;
+    }
+    aside{
+        display: none;
+    }
+    #navegacion{
+    margin-top: 60px;
+    width: 10%;
+    border-right:1px solid black;
+    padding: 10px;
+}
+#publicidad{
+    margin-top: 60px;
+    width: 15%;
+    border-left:1px solid black;
+    padding: 10px;
+}
+.content{
+    margin-top: 0px;
+    width: 100%;
+    padding: 20px;
+    margin:20px;
+}
+.anuncio-div{
+    width: 100%;
+    margin: 0;
+}pre{
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 20px;
+}
+.footer{
+  background-color:  rgb(21, 21, 21);
+  padding: 0px;
+  margin-bottom: 0;
+}hr{
+
+    padding: 0;
+}
+.redes-sociales{
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+.redes-sociales>a{
+    margin: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-footer{
+    color: #fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+}
